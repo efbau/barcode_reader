@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.barcode_reader"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = flutter.compileSdkVersion // As of Flutter 3.32.8, this is set to 35. See (Flutter SDK location)\packages\flutter_tools\gradle\src\main\kotlin\FlutterExtension.kt for current value.
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
